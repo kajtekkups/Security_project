@@ -13,5 +13,6 @@ file(GLOB SRC_FILES ./src/*.cpp)
 
 add_executable(security_1 main.cpp ${SRC_FILES})
 
+# uncoment this line in case you want run a program in a background
 # target_link_options(security_1 PRIVATE "-mwindows")
 target_link_libraries(security_1 ws2_32)
